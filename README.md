@@ -124,13 +124,13 @@ First, install MARLlib dependencies to guarantee basic usage.
 following [this guide](https://marllib.readthedocs.io/en/latest/handbook/env.html), finally install patches for RLlib.
 
 ```bash
-$ conda create -n marllib python=3.8 # or 3.9
-$ conda activate marllib
-$ git clone https://github.com/Replicable-MARL/MARLlib.git && cd MARLlib
+$ conda create -n marl python=3.9
+$ conda activate marl
+$ git clone https://github.com/Jxpro/MARLlib && cd MARLlib
 $ pip install -r requirements.txt
 ```
 
-#### 2. install environments (optional)
+#### 2. install environments
 
 Please follow [this guide](https://marllib.readthedocs.io/en/latest/handbook/env.html).
 
@@ -140,7 +140,7 @@ Please follow [this guide](https://marllib.readthedocs.io/en/latest/handbook/env
 pip install "gym==0.20.0"
 ```
 
-#### 3. install patches (basic)
+#### 3. install patches
 
 Fix bugs of RLlib using patches by running the following command:
 
